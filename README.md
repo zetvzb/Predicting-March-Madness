@@ -1,6 +1,6 @@
 # Predicting-March-Madness QAD Random Forrest with advanced statistics. 
 Prediction Model for March Madness 2019
-
+https://www.kaggle.com/c/mens-machine-learning-competition-2019
   
 ## 2019 March Madness Prediction Model
 ## *Step 1:  Data Load* 
@@ -72,4 +72,16 @@ Clean up Rows with Missing Data, Remove them. Clean up dataset Feature Names wit
 ## *Step 10: Validate*
 ## *Step 11: Live Prediction*
 
+## * Step 12: Model Evaluation* 
+Submissions are scored on the log loss:
 
+LogLoss=−1n∑i=1n[yilog(y^i)+(1−yi)log(1−y^i)],
+where
+
+n is the number of games played
+y^i is the predicted probability of team 1 beating team 2
+yi is 1 if team 1 wins, 0 if team 2 wins
+log() is the natural (base e) logarithm
+The use of the logarithm provides extreme punishments for being both confident and wrong. In the worst possible case, a prediction that something is true when it is actually false will add an infinite amount to your error score. In order to prevent this, predictions are bounded away from the extremes by a small value.
+
+Evaluation upcoming!
