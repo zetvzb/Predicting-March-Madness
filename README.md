@@ -68,8 +68,8 @@ Then Joing Regular Season Stats with Team Seeds and All Aggregated Stats Data
 Clean up Rows with Missing Data, Remove them. Clean up dataset Feature Names with Convention "Team x_name_of_Stat"    
 
 
-## *Step 9: Train
-## *Step 10: Validate
-## *Step 11: Live Prediction
+## *Step 9: Train*
+## *Step 10: Validate*
+## *Step 11: Live Prediction*
 
 
