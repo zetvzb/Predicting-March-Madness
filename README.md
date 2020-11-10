@@ -1,6 +1,7 @@
 # Predicting-March-Madness QAD Random Forrest with advanced statistics. 
 Prediction Model for March Madness 2019
 https://www.kaggle.com/c/mens-machine-learning-competition-2019
+As a result of the continued collaboration between Google Cloud and the NCAA, the sixth annual Kaggle-backed March Madness competition is underway! Another year, another chance to anticipate the upsets, call the probabilities, and put your bracketology skills to the leaderboard test. Kagglers will join the millions of fans who attempt to forecast the outcomes of March Madness during this year's NCAA Division I Men’s and Women’s Basketball Championships. But unlike most fans, you will pick your bracket using a combination of NCAA’s historical data and your computing power, while the ground truth unfolds on national television.
   
 ## 2019 March Madness Prediction Model
 ## *Step 1:  Data Load* 
@@ -85,3 +86,5 @@ log() is the natural (base e) logarithm
 The use of the logarithm provides extreme punishments for being both confident and wrong. In the worst possible case, a prediction that something is true when it is actually false will add an infinite amount to your error score. In order to prevent this, predictions are bounded away from the extremes by a small value.
 
 Evaluation upcoming!
+
+My log loss was 0.56254 which ranked 632 out of 866 competitors. 
