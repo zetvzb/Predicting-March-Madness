@@ -73,7 +73,7 @@ Clean up Rows with Missing Data, Remove them. Clean up dataset Feature Names wit
 ## *Step 10: Validate*
 ## *Step 11: Live Prediction*
 
-## * Step 12: Model Evaluation* 
+## *Step 12: Model Evaluation* 
 Submissions are scored on the log loss:
 
 LogLoss=−1n∑i=1n[yilog(y^i)+(1−yi)log(1−y^i)],
@@ -84,7 +84,8 @@ y^i is the predicted probability of team 1 beating team 2
 yi is 1 if team 1 wins, 0 if team 2 wins
 log() is the natural (base e) logarithm
 The use of the logarithm provides extreme punishments for being both confident and wrong. In the worst possible case, a prediction that something is true when it is actually false will add an infinite amount to your error score. In order to prevent this, predictions are bounded away from the extremes by a small value.
+The closer the *LogLoss* is to zero, the better your model did. A low *LogLoss* means a low entropy of your model. 
 
 Evaluation upcoming!
 
-My log loss was 0.56254 which ranked 632 out of 866 competitors. 
+My models *LogLoss* was 0.56254 which ranked 632 out of 951 competitors and 1,552 submissions. 
